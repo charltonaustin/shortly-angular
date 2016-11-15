@@ -1,0 +1,41 @@
+{
+  "name": "shortly-angular",
+  "version": "1.1.0",
+  "description": "Build out the front end of a MEAN stack app",
+  "scripts": {
+    "test": "gulp karma",
+    "start": "gulp",
+    "lint": "jscs ./"
+  },
+  "pre-commit": "lint",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "browser-sync": "^1.5.7",
+    "chai": "^3.4.1",
+    "clone-stats": "0.0.1",
+    "gulp": "^3.8.5",
+    "gulp-nodemon": "^1.0.4",
+    "gulp-shell": "^0.2.7",
+    "karma": "^0.13.15",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^0.2.1",
+    "karma-nyan-reporter": "0.0.43",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-sinon": "^1.0.4",
+    "karma-unicorn-reporter": "^0.1.4",
+    "mocha": "^2.3.4",
+    "pre-commit": "^1.1.1",
+    "sinon": "^1.17.2"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.4.3",
+    "express": "^4.4.5",
+    "jwt-simple": "^0.2.0",
+    "mongoose": "^4.1.0",
+    "morgan": "^1.1.1",
+    "q": "^1.4.1",
+    "request": "^2.36.0"
+  }
+}
